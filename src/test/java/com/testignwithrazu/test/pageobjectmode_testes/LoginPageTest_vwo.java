@@ -45,6 +45,7 @@ public class LoginPageTest_vwo extends commonToAllTest {
     @Test(priority = 2)
     @Description("verify the dashboard page")
     public void test_vwo_dashbord() {
+        WebDriver driver = new EdgeDriver();
         DashBoardPage dashBoardPage = new DashBoardPage(driver);
         dashBoardPage.singfree();
     }
